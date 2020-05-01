@@ -1,0 +1,35 @@
+/*
+custom CSS
+*/
+
+.img-flux {
+    height: 260px;
+    background-position: center;
+    background-size: cover;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.div-flux {
+    overflow: hidden;
+}
+
+.form-right {
+    float: right;
+}
+
+.input-small {
+    font-size: 10px;
+}
+
+.tooltipA {
+    position: relative;
+    display: inline-block;
+}
+
+
+.image-gallery > div {
+    margin-bottom: 17px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding-bottom: 5px;
+}
