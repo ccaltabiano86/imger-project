@@ -1,8 +1,9 @@
+<p id="backHome">This page is for testing only. You will be redirect home in 3 seconds.</p>
 <!-- Button trigger modal -->
-<p class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter1">
+<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter1">
     Launch demo modal
+</a>
 </p>
-
 <!-- Modal -->
 <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
     aria-hidden="true">

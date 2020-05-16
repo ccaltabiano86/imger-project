@@ -6,6 +6,11 @@ $( document ).ready(function() {
         backHome();
     }
 
+    $('a[data-image-url]').click(function() {
+       var url = $(this).attr('data-image-url');
+       $('#modalImage').attr('src',url);
+    });
+
 });
 
 
@@ -39,4 +44,5 @@ function deleteBtn() {
     } else {
       event.preventDefault()
     }
-  }
+}
+

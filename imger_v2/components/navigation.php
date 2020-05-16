@@ -21,7 +21,7 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item <?php echo $upload; ?>" href="/imger_v2/upload.php">Upload</a>
                     <a class="dropdown-item <?php echo $delete; ?>" href="/imger_v2/delete.php">Delete</a>
-                    <a class="dropdown-item <?php echo $modal; ?>" href="/imger_v2/modal_test.php">modal</a>
+                    <a class="dropdown-item <?php echo $modal; ?>" href="/imger_v2/modal_test.php">Modal</a>
                 </div>
             </li>
         </ul>

@@ -16,7 +16,7 @@
                 ?>
                 <div class="col-md-4 col-sm-12">
                     <div class="img-thumbnail div-flux">
-                        <a href="#" data-toggle="modal" data-target="#modal_<?=$imageID;?>">
+                        <a href="#" data-toggle="modal" data-target="#modalViewer" data-image-url="<?=$imageURL;?>">
                             <div class="img-flux mx-auto d-block" style="background-image: url('<?=$imageURL;?>');"></div>
                         </a>
                     </div>
@@ -35,22 +35,22 @@
                         <input class="btn btn-outline-danger" type="submit" name="submit" value="Delete" onclick="deleteBtn();">
                     </form>
                 </div>
-
-                <!-- Modal -->
-                <div class="modal fade" id="modal_<?=$imageID;?>" tabindex="-1" role="dialog" aria-labelledby="modal_<?=$imageID;?>_title"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-body text-center bg-dark">
-                                <img class="img-fluid" src="<?=$imageURL;?>" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /Modal -->
-
                 <?php 
                 }
             } 
             ?>
         </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalViewer" tabindex="-1" role="dialog" aria-labelledby="modalViewerTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body text-center bg-dark">
+                        <img id="modalImage" class="img-fluid" src="/" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Modal -->
